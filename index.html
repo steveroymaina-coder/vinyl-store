@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Vinyl Vibes | Music Album Store</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>🎵 Vinyl Vibes</h1>
+    <p id="greeting"></p>
+    <nav>
+        <a href="index.html">Products</a>
+        <a href="about.html">About</a>
+        <a href="contacts.html">Contacts</a>
+        <button id="themeToggle">🌙</button>
+    </nav>
+    <div class="cart">🛒 Cart: <span id="cartCount">0</span></div>
+</header>
+
+<main class="products">
+    <div class="product">
+        
+        <h3>Classic Rock Hits</h3>
+        <p>Legendary rock anthems.</p>
+        <p class="price">KSh 1,200</p>
+        <button onclick="addToCart()">Add to Cart</button>
+    </div>
+
+    <div class="product">
+    
+        <h3>Hip Hop Essentials</h3>
+        <p>Top hip hop tracks of all time.</p>
+        <p class="price">KSh 1,500</p>
+        <button onclick="addToCart()">Add to Cart</button>
+    </div>
+
+    <div class="product">
+        
+        <h3>Afro Beats Collection</h3>
+        <p>Feel the African rhythm.</p>
+        <p class="price">KSh 1,300</p>
+        <button onclick="addToCart()">Add to Cart</button>
+    </div>
+    <section class="album-gallery">
+    <h2><u>Featured Albums</u></h2>
+
+    <div class="gallery-grid">
+        <img src="numbers/fir.jpeg" alt="Album 1">
+        <img src="numbers/sec.jpeg" alt="Album 2">
+        <img src="thir.jpeg" alt="Album 3">
+        <img src="numbers/for.jpeg" alt="Album 4">
+    </div>
+</section>
+
+</main>
+
+<footer>
+    <p>&copy; 2026 Vinyl Vibes</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
